@@ -1,6 +1,6 @@
 Name:		qnetstatview
-Version:	1.1.0
-Release:	3
+Version:	1.1.1
+Release:	4
 Summary:	Shows detailed listings of all TCP and UDP endpoints
 Group:		Networking/Other
 License:	GPLv3+
