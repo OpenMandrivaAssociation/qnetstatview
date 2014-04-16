@@ -1,18 +1,28 @@
-Name:		qnetstatview
-Version:	1.1.1
-Release:	4
 Summary:	Shows detailed listings of all TCP and UDP endpoints
-Group:		Networking/Other
+Name:		qnetstatview
+Version:	1.2.0
+Release:	6
 License:	GPLv3+
-URL:		http://qt-apps.org/content/show.php?content=157088
+Group:		Networking/Other
+Url:		http://qt-apps.org/content/show.php?content=157088
 Source0:	http://dansoft.krasnokamensk.ru/data/1016/qnetstatview_source.tar.gz
-BuildRequires:	qt4-devel
-BuildRequires:	net-devel >= 1.1.3
-BuildRequires:	pcap-devel
 BuildRequires:	imagemagick
+BuildRequires:	libnet-devel
+BuildRequires:	libpcap-devel
+BuildRequires:	qt4-devel
 
 %description
 Shows detailed listings of all TCP and UDP endpoints.
+
+#----------------------------------------------------------------------------
+
+%files
+%doc Bin/HISTORY Bin/COPYING
+%{_bindir}/%{name}
+%{_datadir}/%{name}
+%{_datadir}/applications/%{name}.desktop
+%{_iconsdir}/hicolor/*/apps/%{name}.png
+
 
 %prep
 %setup -q -n %{name}_source
@@ -51,11 +61,4 @@ Exec=%{name}
 Terminal=false
 Categories=Network;Utility;
 EOF
-
-%files
-%doc Bin/HISTORY Bin/COPYING
-%{_bindir}/%{name}
-%{_datadir}/%{name}
-%{_datadir}/applications/%{name}.desktop
-%{_iconsdir}/hicolor/*/apps/%{name}.png
 
