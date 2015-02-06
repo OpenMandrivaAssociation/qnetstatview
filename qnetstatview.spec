@@ -1,7 +1,7 @@
 Summary:	Shows detailed listings of all TCP and UDP endpoints
 Name:		qnetstatview
 Version:	1.2.0
-Release:	6
+Release:	7
 License:	GPLv3+
 Group:		Networking/Other
 Url:		http://qt-apps.org/content/show.php?content=157088
