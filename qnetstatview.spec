@@ -8,6 +8,8 @@ URL:		http://dansoft.krasnokamensk.ru/more.html?id=1016
 Source0:	%{name}-%{version}.tar.gz
 
 BuildRequires:	qt5-linguist-tools
+BuildRequires:  qt5-macros
+BuildRequires:  qmake5
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5Gui)
 BuildRequires:	pkgconfig(Qt5Widgets)
