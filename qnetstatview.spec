@@ -1,5 +1,5 @@
 Name:		qnetstatview
-Version:	1.5.3
+Version:	1.5.4
 Release:	1
 Summary:	Shows detailed listings of all TCP and UDP endpoints
 Group:		Networking/Other
@@ -35,4 +35,4 @@ Shows detailed listings of all TCP and UDP endpoints.
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/pixmaps/%{name}.png
-
+%{_datadir}/polkit-1/actions/org.pkexec.qnetstatview.policy 
