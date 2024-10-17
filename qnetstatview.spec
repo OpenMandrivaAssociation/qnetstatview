@@ -4,7 +4,7 @@ Release:	1
 Summary:	Shows detailed listings of all TCP and UDP endpoints
 Group:		Networking/Other
 License:	GPLv3+
-URL:		http://dansoft.krasnokamensk.ru/more.html?id=1016
+URL:		https://dansoft.krasnokamensk.ru/more.html?id=1016
 Source0:	%{name}-%{version}.tar.gz
 
 BuildRequires:	qt5-linguist-tools
